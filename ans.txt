@@ -9,3 +9,14 @@ git branch -D dev   -->	hard delete
 git branch -d test   --> soft delete
 git branch -D test   --> hard delete
 
+
+how to list tags:
+git tag
+
+how to delete tags:
+
+remote:
+git push first --delete v1.7
+
+local:
+git tag -d v1.7
