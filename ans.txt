@@ -1,0 +1,11 @@
+delete remote branch:
+git push first :dev
+git push first :test
+
+delete local branch:
+git branch -d dev   --> soft delete
+git branch -D dev   -->	hard delete
+
+git branch -d test   --> soft delete
+git branch -D test   --> hard delete
+
